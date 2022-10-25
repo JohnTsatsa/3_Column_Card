@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color:hsl(0, 0%, 95%);
+}
+
+main{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding:5em;
+}
+
+.card1{	
+	background-color:hsl(31, 77%, 52%);
+	padding:0 3em 0 3em;
+	height:25em;
+	width:17em;
+}
+
+.card2{
+	
+	background-color:hsl(184, 100%, 22%);
+	padding:0 3em 0 3em;
+	height:25em;
+	width:17em;
+}
+
+img{
+	position:absolute;
+	top:8em;
+}
+
+.card3{
+	border:1px solid purple;
+	background-color:hsl(179, 100%, 13%);
+	padding:0 3em 0 3em;
+	height:25em;
+	width:17em;
+}
+
+h2{
+	color:hsl(0, 0%, 95%);
+	font-style:sans-serif;
+	font-size:27px;
+	text-transform:uppercase;
+	position:relative;
+	top:3em;
+}
+
+
+
+p{
+	Font-size:15px;
+	font-style:sans-serif;
+	color:hsla(0, 0%, 100%, 0.75);
+	position:relative;
+	top:5.5em;
+	line-height:1.5em;
+	margin:auto;
+	min-width:10em;
+}
+
+.cardP2{
+	min-width:10em;
+}
+
+
+button{
+	border: none;
+	position:relative;
+	top:9em;
+	background-color:white;
+	font-size:15px;
+	font-weight:600;
+	border-radius: 30px;
+	padding:14px 28px;
+}
+
+.button1 {
+	color:hsl(31, 77%, 52%);
+}
+
+.button1:hover{
+	background-color:hsl(31, 77%, 52%);
+	color:white;
+	border:1px solid white;
+}
+
+.button2 {
+	color:hsl(184, 100%, 22%);
+}
+
+.button2:hover{
+	background-color:hsl(184, 100%, 22%);
+	color:white;
+	border:1px solid white;
+}
+
+.button3 {
+	color:hsl(179, 100%, 13%);
+}
+
+.button3:hover{
+	background-color:hsl(179, 100%, 13%);
+	color:white;
+	border:1px solid white;
+
+
+@media only screen and (max-width: 720px){
+	
+	
+main{
+	flex-direction: column;	
+}
+	
+.card__icon2{
+	position:absolute;
+	top:33em;
+}
+
+
+.card__icon3{
+	position:absolute;
+	top:58em;
+}
+
+
+
+
+
+
+
+
